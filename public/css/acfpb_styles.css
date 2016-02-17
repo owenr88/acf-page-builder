@@ -1,0 +1,17 @@
+
+.acfpb_section.section-banner .banner-holder {
+	position: relative;
+}
+
+.acfpb-hover-text {
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+	bottom: 40px;
+	left: 40px;
+}
+
+.acfpb-hover-text p {
+	color: #FFFFFF;
+	font-size: 26px;
+}
