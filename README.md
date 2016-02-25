@@ -4,7 +4,7 @@
 **Tags:** advanced custom fields, custom fields, page builder, build pages
 **Requires at least:** 3.8
 **Tested up to:** 4.4.2
-**Stable tag:** 1.1.2
+**Stable tag:** 1.1.3
 **License:** GPLv2 or later
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,63 +82,18 @@ Make sure that you have [Advanced Custom Fields](http://www.advancedcustomfields
 
 ## Frequently Asked Questions ##
 
-### Can I ask you a question? ###
-
-Yes. Head over to the [GitHub](https://github.com/owenr88/acf-page-builder) page with any questions or feature requests. You might also find your answer in the support tab. Feel free to [contact us](http://www.biglemoncreative.co.uk) if you can't find an answer, or reach us on [Twitter](https://twitter.com/biglemontweets).
-
-## Screenshots ##
-
-###1. All sections collapsed
-###
-![All sections collapsed
-](https://ps.w.org/acf-page-builder/assets/screenshot-1.png)
-
-###2. Banner section options
-###
-![Banner section options
-](https://ps.w.org/acf-page-builder/assets/screenshot-2.png)
-
-###3. Button section options
-###
-![Button section options
-](https://ps.w.org/acf-page-builder/assets/screenshot-3.png)
-
-###4. Content Grid section options
-###
-![Content Grid section options
-](https://ps.w.org/acf-page-builder/assets/screenshot-4.png)
-
-###5. Gallery section options
-###
-![Gallery section options
-](https://ps.w.org/acf-page-builder/assets/screenshot-5.png)
-
-###6. Raw HTML section options
-###
-![Raw HTML section options
-](https://ps.w.org/acf-page-builder/assets/screenshot-6.png)
-
-###7. Simple Contact Forms section options
-###
-![Simple Contact Forms section options
-](https://ps.w.org/acf-page-builder/assets/screenshot-7.png)
-
-###8. WYSIWYG section options
-###
-![WYSIWYG section options
-](https://ps.w.org/acf-page-builder/assets/screenshot-8.png)
-
-###9. Full Page of created sections
-###
-![Full Page of created sections
-](https://ps.w.org/acf-page-builder/assets/screenshot-9.png)
-
+Feel free to [contact us](http://www.biglemoncreative.co.uk) if you can't find an answer, or reach us on [Twitter](https://twitter.com/biglemontweets).
 
 ## Changelog ##
+
+### v1.1.3 ###
+* Fixed the containment and bootstrap toggle - wasn't working!
+
+### v1.1.2 ###
+* Changed contributors and some house keeping
 
 ### v1.1.1 ###
 * The very first version! Includes the following sections: banners, buttons, content grid, galleries, raw HTML, normal WYSIWYG text and simple contact form integration
 
 ## Upgrade Notice ##
 
-Only the first version!

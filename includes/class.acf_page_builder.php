@@ -103,9 +103,11 @@ Class ACF_Page_Builder {
 
 					$style = get_sub_field('bg') ? 'background-color:' . get_sub_field('bg') : '';
 
-					$contained = get_sub_field('contained', false) !== false && $this->use_bs ? (boolean) get_sub_field('contained', false) : true;
+					$contained = (boolean) get_sub_field('contained', false);
 
-					$wrapper = get_sub_field('wrapper_class') && $contained ? get_sub_field('wrapper_class') : '';
+					if( !$this->use_bs && $contained ) $contained = false;
+
+					$wrapper = get_sub_field('wrapper_class');
 
 					$this->html .= '<div id="' . $id . '" class="' . $class . '" style="' . $style . '">';
 

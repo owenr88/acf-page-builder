@@ -15,7 +15,7 @@
  * Plugin Name:       ACF Page Builder
  * Plugin URI:        https://wordpress.org/plugins/acf-page-builder/
  * Description:       A powerful and easy to use page builder, using the Advanced Custom Fields Flexible Content module.
- * Version:           1.1.2
+ * Version:           1.1.3
  * Author:            Big Lemon Creative
  * Author URI:        http://www.biglemoncreative.co.uk
  * License:           GPL-2.0+
