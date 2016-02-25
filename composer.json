@@ -1,6 +1,15 @@
 {
     "name": "owenr88/acf-page-builder",
-    "description": "A powerful and easy to use page builder, using the Advanced Custom Fields Flexible Content module. WordPres plugin.",
+    "description": "A powerful and easy to use page builder, using the Advanced Custom Fields Flexible Content module. WordPress plugin.",
+    "keywords": ["advanced custom fields","custom fields","acf", "page builder", "build pages", "wordpress", "plugin"],
+    "authors": [
+        {
+            "name": "Owen Richards",
+            "email": "owen@biglemoncreative.co.uk",
+            "homepage": "http://www.biglemoncreative.co.uk",
+            "role": "Technical Director"
+        }
+    ],
     "require": {
         "php": ">=5.3.0"
     }
