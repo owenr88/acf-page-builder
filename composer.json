@@ -1,0 +1,7 @@
+{
+    "name": "owenr88/acf-page-builder",
+    "description": "A powerful and easy to use page builder, using the Advanced Custom Fields Flexible Content module. WordPres plugin.",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
