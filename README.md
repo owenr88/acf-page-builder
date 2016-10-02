@@ -4,7 +4,7 @@
 **Tags:** advanced custom fields, custom fields, page builder, build pages
 **Requires at least:** 3.8
 **Tested up to:** 4.6.1
-**Stable tag:** 1.2.1
+**Stable tag:** 1.1.4
 **License:** GPLv2 or later
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,6 +81,11 @@ Make sure that you have [Advanced Custom Fields](http://www.advancedcustomfields
 Feel free to [contact us](http://www.biglemoncreative.co.uk) if you can't find an answer, or reach us on [Twitter](https://twitter.com/biglemontweets).
 
 ## Changelog ##
+
+### v1.1.4 ###
+* Remove ID as an option to call the sections - doesn't work
+* The container is now disabled if Bootstrap is not selected
+* Tested up to 4.6.1
 
 ### v1.1.3 ###
 * Fixed the containment and bootstrap toggle - wasn't working!
