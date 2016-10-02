@@ -2,8 +2,8 @@
 Contributors: owenr88
 Tags: advanced custom fields, custom fields, page builder, build pages
 Requires at least: 3.8
-Tested up to: 4.4.2
-Stable tag: 1.1.3
+Tested up to: 4.6.1
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,7 +33,7 @@ The ACF Page Builder was created and is managed by [Big Lemon Creative](http://w
 
 = Configuration =
 
-To configure which post types, page templates and specific post ID the page builder is displayed on, use the following filter in your functions.php file:
+To configure which post types or page templates the page builder is displayed on, use the following filter in your functions.php file:
 
 ~~~~
 function support_acfpb( $support = array() ) {
@@ -45,10 +45,6 @@ function support_acfpb( $support = array() ) {
 
     $support['page_template'] = array(
         'page-templates/page-sectioned.php'
-    );
-
-    $support['id'] = array(
-        '21'
     );
 
     return $support;

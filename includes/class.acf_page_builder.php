@@ -49,7 +49,7 @@ Class ACF_Page_Builder {
 
 		$this->scf_active = is_plugin_active( 'simple-contact-forms/simple-contact-forms.php' );
 
-		$this->supported_formats = array('post_type', 'page_template', 'id');
+		$this->supported_formats = array('post_type', 'page_template');
 
 		$this->use_bs = function_exists('get_field') ? get_field('acfpb_use_bootstrap') : false;
 
@@ -198,7 +198,6 @@ Class ACF_Page_Builder {
 				'location' 				=> array(),
 				'active'				=> 1,
 				'description' 			=> '',
-
 			);
 
 			// Filter to get the locations
@@ -211,7 +210,7 @@ Class ACF_Page_Builder {
 
 				if( !isset($location[$format]) || empty($location[$format]) ) continue;
 					
-				$meta['location'][$l] = array();;
+				$meta['location'][$l] = array();
 
 				foreach ($location[$format] as $place) {
 
